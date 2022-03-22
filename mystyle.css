@@ -1,0 +1,20 @@
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    vertical-align: middle;
+    font-size:500%;
+    color:white;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+}
+button{
+color: black;
+align-self: center;
+}
