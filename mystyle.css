@@ -4,10 +4,9 @@ html, body{
     margin: 0;
     color: black;
     animation-name: backgroundAnimation;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
 }
 
 h1{
@@ -30,6 +29,7 @@ h1{
 }
 
 .butn{
+    text-decoration: none;
     border-radius: 40px;
     color: white;
     border: 1px solid white;
@@ -47,15 +47,13 @@ h1{
 
 @keyframes backgroundAnimation{
     0%{
-        background: #000000;
-    }
-    25%{
-        background: #111111;
+        background-image: linear-gradient(to right,#111111, #000000 ) ;
     }
     50%{
-        background:	#1e1e1e;
+        background-image: linear-gradient(to right,#1e1e1e, #111111) ;
     }
     100%{
-        background: #111111;
+        background-image: linear-gradient(to right,#1e1e1e, #000000);
     }
+    
 }
