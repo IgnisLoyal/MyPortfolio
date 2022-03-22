@@ -1,20 +1,61 @@
 
-body{
-    background-color: black;
+html, body{
+    height: 100%;
+    margin: 0;
+    color: black;
+    animation-name: backgroundAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
 
 h1{
-    text-align: center;
-    vertical-align: middle;
     font-size:500%;
     color:white;
 }
 
-div{
+.container{
     height: 100%;
-    width: 100%;
+    position:relative;
 }
-button{
-color: black;
-align-self: center;
+
+.center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.butn{
+    border-radius: 40px;
+    color: white;
+    border: 1px solid white;
+    padding: 14px 15px;
+    background-color: black;
+    padding: 14px 28 px;
+    cursor: pointer;
+}
+
+.butn:hover{
+    transition:1s;
+    color: black;
+    background-color:rgba(255,255, 255, 0.8) ;
+}
+
+@keyframes backgroundAnimation{
+    0%{
+        background: #000000;
+    }
+    25%{
+        background: #111111;
+    }
+    50%{
+        background:	#1e1e1e;
+    }
+    100%{
+        background: #111111;
+    }
 }
