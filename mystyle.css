@@ -11,7 +11,7 @@ html, .bodyindex{
 
 h1{
     font-family: Hendryan;
-    font-size:700%;
+    font-size: 800%;
     color:white;
 }
 
@@ -39,6 +39,9 @@ h1{
     background-color: black;
     padding: 14px 28 px;
     cursor: pointer;
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, -150%);
 }
 
 .butn:hover{
