@@ -2,17 +2,26 @@
 html, .bodyindex{
     height: 100%;
     margin: 0;
-    color: black;
     animation-name: backgroundAnimation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-h1{
+.bodywork{
+    background-color: black;
+}
+
+.h1index{
     font-family: Hendryan;
     font-size: 800%;
     color:white;
+}
+.h1work{
+    font-family: Hendryan;
+    font-size: 800%;
+    color:white;
+    text-align: center;
 }
 
 .container{
@@ -51,15 +60,7 @@ h1{
 }
 
 @keyframes backgroundAnimation{
-    /*0%{
-        background-image: linear-gradient(to right,#111111, #000000 ) ;
-    }
-    40%{
-        background-image: linear-gradient(to right,#1e1e1e, #111111) ;
-    }
-    100%{
-        background-image: linear-gradient(to right,#1e1e1e, #000000);
-    }*/
+
     from{background-color: #000000;}
     to{background-color: #111111;}
     
